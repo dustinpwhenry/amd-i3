@@ -445,7 +445,7 @@ exec --no-startup-id volumeicon
 #variety
 exec --no-startup-id variety
 
-# clipit
+# clipman
 exec --no-startup-id xfce4-clipman
 
 #Conky
