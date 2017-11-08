@@ -43,6 +43,7 @@ echo "Installing category Other"
 echo "Installing category System"
 
 sudo pacman -S arandr --noconfirm --needed
+sudo pacman -S awesome-terminal-fonts --noconfirm --needed
 sudo pacman -S compton  --noconfirm --needed
 sudo pacman -S dmenu  --noconfirm --needed
 sudo pacman -S feh --noconfirm --needed
@@ -59,7 +60,6 @@ sudo pacman -S xorg-xrandr --noconfirm --needed
 sudo pacman -S xfce4-appfinder --noconfirm --needed
 sudo pacman -S xfce4-settings --noconfirm --needed
 sudo pacman -S xfce4-screenshot --noconfirm --needed
-
 
 echo "################################################################"
 echo "####    Software from Arch Linux Repository installed     ######"
