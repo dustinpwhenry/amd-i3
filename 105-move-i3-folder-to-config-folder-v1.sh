@@ -24,4 +24,4 @@ echo "If folder does not exist, we will create it now"
 [ -d $HOME"/.config/i3" ] || mkdir -p $HOME"/.config/i3"
 
 echo "moving files and folders to i3 folder"
-cp -rf Archmerge-i3wm/* ~/.config/i3/
+cp -rf Archmerge-i3wm/* ~/.config/i3
