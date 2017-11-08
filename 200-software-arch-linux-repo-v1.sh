@@ -33,7 +33,7 @@ echo "Installing category Development"
 sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
-#sudo pacman -S --noconfirm --needed 
+#sudo pacman -S --noconfirm --needed
 
 echo "Installing category Education"
 
@@ -80,11 +80,11 @@ sudo pacman -S --noconfirm --needed evince
 sudo pacman -S --noconfirm --needed evolution
 sudo pacman -S --noconfirm --needed geary
 sudo pacman -S --noconfirm --needed libreoffice-fresh
-#sudo pacman -S --noconfirm --needed 
+#sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
 
-#sudo pacman -S --noconfirm --needed 
+#sudo pacman -S --noconfirm --needed
 
 echo "Installing category System"
 
@@ -100,7 +100,7 @@ sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-system-monitor
 sudo pacman -S --noconfirm --needed gnome-terminal
-sudo pacman -S --noconfirm --needed gnome-tweak-tool
+#sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
 sudo pacman -S --noconfirm --needed hardinfo
@@ -128,7 +128,7 @@ sudo pacman -S --noconfirm --needed tumbler
 sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed unclutter
-#sudo pacman -S --noconfirm --needed 
+#sudo pacman -S --noconfirm --needed
 
 
 ###############################################################################################
