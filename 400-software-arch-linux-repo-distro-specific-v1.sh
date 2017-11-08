@@ -59,7 +59,7 @@ sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S xorg-xrandr --noconfirm --needed
 sudo pacman -S xfce4-appfinder --noconfirm --needed
 sudo pacman -S xfce4-settings --noconfirm --needed
-sudo pacman -S xfce4-screenshot --noconfirm --needed
+sudo pacman -S xfce4-screenshooter --noconfirm --needed
 
 echo "################################################################"
 echo "####    Software from Arch Linux Repository installed     ######"
