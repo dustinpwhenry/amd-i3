@@ -44,9 +44,11 @@ echo "Installing category System"
 
 sudo pacman -S arandr --noconfirm --needed
 sudo pacman -S compton  --noconfirm --needed
+sudo pacman -S dmenu  --noconfirm --needed
 sudo pacman -S feh --noconfirm --needed
 sudo pacman -S gvfs  --noconfirm --needed
 sudo pacman -S lxappearance --noconfirm --needed
+sudo pacman -S lxrandr --noconfirm --needed
 sudo pacman -S nitrogen --noconfirm --needed
 sudo pacman -S notify-osd  --noconfirm --needed
 sudo pacman -S qt4 --confirm --needed
