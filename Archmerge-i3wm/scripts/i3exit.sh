@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Date    : 09/011/2017
+# Date    : 09/11/2017
 # Version : v6.1.1
 
 case "$1" in

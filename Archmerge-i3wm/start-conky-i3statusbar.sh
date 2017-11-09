@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Date    : 09/011/2017
+# Date    : 09/11/2017
 # Version : v6.1.1
 
 # Send the header so that i3bar knows we want to use JSON:
