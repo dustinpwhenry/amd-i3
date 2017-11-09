@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Date    : 22/09/2017
-# Version : v5.6.0
+# Date    : 09/011/2017
+# Version : v6.1.1
 
 case "$1" in
     lock)
