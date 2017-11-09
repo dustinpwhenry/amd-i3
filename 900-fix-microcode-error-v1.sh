@@ -21,5 +21,5 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 
 echo "################################################################"
-echo "####        Software from AUR Repository installed        ######"
+echo "####                             Fix done                 ######"
 echo "################################################################"
