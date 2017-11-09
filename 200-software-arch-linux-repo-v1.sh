@@ -104,7 +104,7 @@ sudo pacman -S --noconfirm --needed gnome-terminal
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
-sudo pacman -S --noconfirm --needed gvfs
+sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
 sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed htop
@@ -125,6 +125,7 @@ sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
 sudo pacman -S --noconfirm --needed thunar
+sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid

@@ -31,7 +31,7 @@ else
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-		
+
 	elif pacman -Qi pacaur &> /dev/null; then
 
 		echo "Installing with pacaur"
@@ -83,7 +83,7 @@ else
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-		
+
 	elif pacman -Qi pacaur &> /dev/null; then
 
 		echo "Installing with pacaur"
@@ -233,19 +233,3 @@ else
 	fi
 
 fi
-
-
-
-
-
-
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "sudo chsh username -s /bin/zsh"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "Log off or reboot to see the change in your terminal".
-echo "--------------------------------------------------------------"
