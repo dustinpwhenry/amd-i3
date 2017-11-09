@@ -104,6 +104,7 @@ sudo pacman -S --noconfirm --needed gnome-terminal
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed grsync
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
+sudo pacman -S --noconfirm --needed gvfs
 sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed htop
