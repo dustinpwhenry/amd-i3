@@ -47,6 +47,7 @@ sudo pacman -S awesome-terminal-fonts --noconfirm --needed
 sudo pacman -S compton  --noconfirm --needed
 sudo pacman -S dmenu  --noconfirm --needed
 sudo pacman -S feh --noconfirm --needed
+sudo pacman -S gmrun --noconfirm --needed
 sudo pacman -S gnome-screenshot --noconfirm --needed
 sudo pacman -S lxappearance --noconfirm --needed
 sudo pacman -S lxrandr --noconfirm --needed
