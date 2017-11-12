@@ -21,8 +21,8 @@ echo "https://wiki.archlinux.org/index.php/LightDM#Enabling_autologin"
 read -p "What is your login? It will be used to add this user to the group autologin : " choice
 sudo gpasswd -a $choice autologin
 
-sed -i 's/'#autologin-user='/'autologin-user=$choice'/g' /etc/lightdm/lighdm.conf
-sed -i 's/'#autologin-session='/'autologin-session=i3'/g' /etc/lightdm/lighdm.conf
+sed -i 's/'#autologin-user='/'autologin-user=$choice'/g' /etc/lightdm/lightdm.conf
+sed -i 's/'#autologin-session='/'autologin-session=i3'/g' /etc/lightdm/lightdm.conf
 
 echo "################################################################"
 echo "####        You can now autologin - reboot to check       ######"
