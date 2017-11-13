@@ -122,11 +122,14 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 
 
 #####################################################################################################################
-#################                          5 menu's in ArchMerge                                     #################
+#################                          3 menu's in ArchMerge                                     #################
 #####################################################################################################################
 
 # start dmenu
 bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+
+# gmrun
+bindsym mod1+F2 exec --no-startup-id gmrun
 
 # start xfce-appfinder
 bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
@@ -136,9 +139,6 @@ bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
 
 # start rofi small  -- ROFI IS NOT INSTALLED
 #bindsym $mod+F12 exec --no-startup-id rofi -show run -font "Noto Sans 13"
-
-# gmrun
-bindsym mod1+F2 exec --no-startup-id gmrun
 
 
 
