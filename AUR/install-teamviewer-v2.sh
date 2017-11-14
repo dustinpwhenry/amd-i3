@@ -22,7 +22,7 @@ sudo pacman -S lib32-libxinerama --needed --noconfirm
 sudo pacman -S lib32-libxrender --needed --noconfirm
 sudo pacman -S lib32-libjpeg6-turbo --needed --noconfirm
 sudo pacman -S lib32-libxtst --needed --noconfirm
-sudo pacman -S lib32-lib32-dbus --needed --noconfirm
+sudo pacman -S lib32-dbus --needed --noconfirm
 
 
 package="teamviewer"
