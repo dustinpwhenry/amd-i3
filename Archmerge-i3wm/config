@@ -833,6 +833,7 @@ bar {
     font pango:Noto Sans 14
 
     tray_output $firstMonitor
+    #tray_output $secondMonitor
 
 # OPTION 1 : i3status
 
