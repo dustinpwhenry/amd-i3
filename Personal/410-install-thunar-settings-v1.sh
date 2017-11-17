@@ -13,19 +13,11 @@ set -e
 #
 ##################################################################################################################
 
+echo " installling thunar settings"
 
-
-echo "Copy/pasting gimp scripts and themes"
-
-[ -d $HOME"/.gimp-2.8" ] || mkdir -p $HOME"/.gimp-2.8"
-[ -d $HOME"/.gimp-2.8/scripts" ] || mkdir -p $HOME"/.gimp-2.8/scripts"
-[ -d $HOME"/.gimp-2.8/themes" ] || mkdir -p $HOME"/.gimp-2.8/themes"
-
-cp settings/gimp/scripts/* ~/.gimp-2.8/scripts/
-cp -r settings/gimp/themes/* ~/.gimp-2.8/themes/
-
-
+[ -d $HOME"/.config/Thunar" ] || mkdir -p $HOME"/.config/Thunar"
+cp -rf settings/Thunar/* ~/.config/Thunar
 
 echo "################################################################"
-echo "#########      gimp scripts and themes copied   ################"
+echo "#########           thunar files copied         ################"
 echo "################################################################"
