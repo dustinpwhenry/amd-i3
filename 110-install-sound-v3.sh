@@ -13,8 +13,16 @@ set -e
 #
 ##################################################################################################################
 
-cp -rf settings/root/.bashrc ~
+#Sound
+sudo pacman -S pulseaudio --noconfirm --needed
+sudo pacman -S pulseaudio-alsa --noconfirm --needed
+#pavucontrol not needed in Budgie
+sudo pacman -S pavucontrol  --noconfirm --needed
+sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --needed
+sudo pacman -S gstreamer --noconfirm --needed
+sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
+sudo pacman -S volumeicon --noconfirm --needed
 
 echo "################################################################"
-echo "#########      root files copied                ################"
+echo "#########   sound software software installed   ################"
 echo "################################################################"
