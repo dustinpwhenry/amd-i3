@@ -52,6 +52,7 @@ sudo pacman -S lxappearance --noconfirm --needed
 sudo pacman -S lxrandr --noconfirm --needed
 sudo pacman -S nitrogen --noconfirm --needed
 sudo pacman -S qt4 --confirm --needed
+sudo pacman -S thunar --noconfirm --needed
 sudo pacman -S slim --noconfirm --needed
 sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S xorg-xrandr --noconfirm --needed
@@ -61,6 +62,10 @@ sudo pacman -S xfce4-power-manager --noconfirm --needed
 sudo pacman -S xfce4-settings --noconfirm --needed
 sudo pacman -S xfce4-screenshooter --noconfirm --needed
 sudo pacman -S xfce4-taskmanager --noconfirm --needed
+
+#Testing if we need xfce4-session
+#sudo pacman -S xfce4-session --noconfirm --needed
+#sudo rm /usr/share/xsessions/xfce.desktop
 
 echo "################################################################"
 echo "####    Software from Arch Linux Repository installed     ######"

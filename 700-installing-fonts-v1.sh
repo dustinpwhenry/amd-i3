@@ -13,11 +13,20 @@ set -e
 #
 ##################################################################################################################
 
-echo " installling thunar settings"
+echo "Installing fonts"
 
-[ -d $HOME"/.config/Thunar" ] || mkdir -p $HOME"/.config/Thunar"
-cp -rf settings/Thunar/* ~/.config/Thunar
+sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
+sudo pacman -S cantarell-fonts --noconfirm --needed
+sudo pacman -S noto-fonts --noconfirm --needed
+sudo pacman -S terminus-font --noconfirm --needed
+sudo pacman -S ttf-bitstream-vera --noconfirm --needed
+sudo pacman -S ttf-dejavu --noconfirm --needed
+sudo pacman -S ttf-droid --noconfirm --needed
+sudo pacman -S ttf-inconsolata --noconfirm --needed
+sudo pacman -S ttf-liberation --noconfirm --needed
+sudo pacman -S ttf-roboto --noconfirm --needed
+sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
 
 echo "################################################################"
-echo "#########           thunar files copied         ################"
+echo "####             Fonts have been installed                  ####"
 echo "################################################################"
