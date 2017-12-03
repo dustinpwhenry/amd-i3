@@ -23,6 +23,7 @@ set -e
 
 echo "Installing category Accessories"
 
+sh AUR/install-conky-lua-archers-v*.sh
 sh AUR/install-cool-retro-term-v*.sh
 sh AUR/install-mintstick-git-v*.sh
 sh AUR/install-temps-v*.sh
@@ -82,6 +83,7 @@ sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
 sh AUR/install-virtualbox-for-linux-kernel-v*.sh
 sh AUR/install-xcursor-breeze-v*.sh
+sh AUR/install-yad-v*.sh
 
 
 #Other possibilities
