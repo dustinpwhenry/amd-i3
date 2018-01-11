@@ -54,7 +54,7 @@ sed -i 's/#port/port/g' ~/.config/mpd/mpd.conf
 
 sed -i 's/#auto_update/auto_update/g' ~/.config/mpd/mpd.conf
 
-sed -i 's/#follow_outside_symlinks/follow_outside_symlinks/g' ~/.config/mpd/mpd.conf
+sed -i 's/#follow_inside_symlinks/follow_inside_symlinks/g' ~/.config/mpd/mpd.conf
 
 sed -i 's/~\/.mpd\/socket/~\/.config\/mpd\/socket/g' ~/.config/mpd/mpd.conf
 
