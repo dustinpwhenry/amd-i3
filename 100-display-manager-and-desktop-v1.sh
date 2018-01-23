@@ -20,7 +20,7 @@ echo "#################################################"
 
 sudo pacman -Syyu
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
-sudo pacman -S --noconfirm --needed i3lock i3status
+sudo pacman -S --noconfirm --needed i3status
 sh AUR-DS/install-i3-gaps-next-*.sh
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
