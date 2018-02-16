@@ -36,6 +36,8 @@ echo "Installing category Internet"
 
 echo "Installing category Multimedia"
 
+sh AUR/install-mpd-ncmpcpp-v*.sh
+
 echo "Installing category Office"
 
 echo "Installing category Other"
@@ -57,7 +59,7 @@ sudo pacman -S slim --noconfirm --needed
 sudo pacman -S volumeicon  --noconfirm --needed
 sudo pacman -S xorg-xrandr --noconfirm --needed
 sudo pacman -S xfce4-appfinder --noconfirm --needed
-sudo pacman -S xfce4-clipman-plugin --noconfirm --needed
+#sudo pacman -S xfce4-clipman-plugin --noconfirm --needed
 sudo pacman -S xfce4-notifyd --noconfirm --needed
 sudo pacman -S xfce4-power-manager --noconfirm --needed
 sudo pacman -S xfce4-settings --noconfirm --needed

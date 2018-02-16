@@ -35,7 +35,6 @@ sudo pacman -S archmerge-termite-themes-git --noconfirm --needed
 sudo pacman -S archmerge-wallpapers-git --noconfirm --needed
 sudo pacman -S archmerge-xfce-thunar-git --noconfirm --needed
 
-
 echo "################################################################"
 echo "####     Software from ArchMerge Repository installed       ####"
 echo "################################################################"
